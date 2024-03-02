@@ -4,7 +4,8 @@ import os
 from text_summarizer.functions import summarize
 
 try:
-  openai.api_key = os.getenv('OPENAI_KEY')
+  # Please update your key in the .secret/secretkey.toml
+  openai.api_key = os.getenv('OPENAI_KEY') 
   
   if "summary" not in st.session_state:
       st.session_state["summary"] = ""
