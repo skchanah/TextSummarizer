@@ -18,7 +18,7 @@ touch secrets.toml
 ```
 
 In the secrets.toml, paste your key as below:
-> OPENAI_KEY = "<your key>"
+> OPENAI_KEY = "your_key_here"
 
 ## Run
 To run the app, run the below command in the root of the repo
