@@ -5,6 +5,7 @@ A mini summarizer app using streamlit and OpenAI's gpt-3.5-turbo-instruct (previ
 
 Below are key facts from openai.com about the model:
 > Context window: 4,096 tokens
+> 
 > Last trained data: up to Sep 2021
 
 ## API Keys
