@@ -1,9 +1,9 @@
-# Text-summarizer
+# Search Engine with Text-summarizer
 
 ## Introduction and Model information
-A mini summarizer app using streamlit and OpenAI's gpt-3.5-turbo-instruct (previously the deprecated text-davinci-003) model. Max input token is limited to 2000.
+A mini search engine plus summarize app using (1) **DuckDuckGo with LangChain _NEW_** and (2) **OpenAI's gpt-3.5-turbo-instruct** (previously the deprecated text-davinci-003) model. Max input token for GPT summarization is limited to 2000 .
 
-Below are key facts from openai.com about the model:
+Below are key facts from openai.com about the GPT 3.5 model:
 > Context window: 4,096 tokens (Input + Output)
 > 
 > Last trained data: up to Sep 2021
@@ -37,9 +37,9 @@ This shall open a browser page alike to below.
 ![Screenshot of the app](/assets/images/app_preview.png)
 
 ## Pending Updates
-1. Duckduckgo algorithm to replace gpt 3.5
-2. Langchain to further optimize the summarization
+1. ~~Duckduckgo API for KB functions~~
+2. ~~Langchain to further optimize the summarization~~
 
 ## Acknowledgement
-Shout out to Jay Peterman @ medium for the motivations and inspirations
+Shout out to Jay Peterman @ medium for the motivations and inspirations for a streamlit app
 https://towardsdatascience.com/make-a-text-summarizer-with-gpt-3-f0917a07189e
