@@ -1,7 +1,5 @@
 import streamlit as st
 import openai
-from langchain.tools import DuckDuckGoSearchRun
-from langchain_community.utilities import DuckDuckGoSearchAPIWrapper
 import os
 from text_summarizer.functions import summarize, search
 
